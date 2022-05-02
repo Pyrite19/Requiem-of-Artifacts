@@ -33,3 +33,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.shrink {
+    transform: scale(50%);
+}
