@@ -2,9 +2,9 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-height: 100vh;
+    justify-content: center; 
+    height: 100vh;
     margin: 0px;
     background-image: url("images/weirdcore_sun.jpg");
 }
@@ -22,4 +22,14 @@ body {
 .rightEyes {
     flex-direction: column;
     display: flex;
+}
+
+.mainText h1 {
+    font-weight: 900;
+}
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
