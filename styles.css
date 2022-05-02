@@ -1,12 +1,25 @@
 body {
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    max-height: 100vh;
     margin: 0px;
+    background-image: url("images/weirdcore_sun.jpg");
 }
 
-/* .container {
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
 
-} */
+.leftEyes {
+    flex-direction: column;
+    display: flex;
+}
+
+.rightEyes {
+    flex-direction: column;
+    display: flex;
+}
