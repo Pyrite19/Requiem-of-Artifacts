@@ -14,6 +14,7 @@ body {
     justify-content: center;
     height: 100%;
     width: 60vw;
+    width: 60vmax;
 }
 
 .homeContainer a {
@@ -32,11 +33,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
-}
-
-.ballpitContainer {
-    align-self: right;
+    gap: 75px;
+    min-width: 100px;
 }
 
 .mainText {
@@ -44,17 +42,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 300px;
     gap: 25px;
     flex: 1 1 auto;
-    margin: 15px 0px;
+    margin: 50px 0px;
 }
 
 .rightEyes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 75px;
+    min-width: 100px;
 }
 
 .bottomEyeContainer a {

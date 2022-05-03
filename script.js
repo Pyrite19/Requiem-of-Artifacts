@@ -19,14 +19,6 @@ eyesArray = new Array(home, ballpit, bedroom, chapel, sunset, isolation).forEach
   timedBlink(eye)
 });
 
-// eye.addEventListener("mouseover", (e) => {
-//   eye.src = "images/eye2.png";
-// });
-
-// eye.addEventListener("mouseout", (e) => {
-//   eye.src = "images/eye1.png";
-// });
-
 function timedBlink(eye) {
   if (!dilated) {
     eye.src = eye.src.replace("Blink", "Eye")
@@ -44,3 +36,12 @@ function blink(eye) {
     }, (Math.random() * 500))
   }
 };
+
+window.addEventListener("load", (e) => {
+  ballpitHeight = ballpit.height;
+  ballpitWidth = ballpit.width;
+  home.style.height = (ballpitHeight + 5) + "px";
+  home.style.width = (ballpitWidth + 5) + "px";
+  isolation.style.height = (ballpitHeight + 5) + "px";
+  isolation.style.width = (ballpitWidth + 5) + "px";
+})
