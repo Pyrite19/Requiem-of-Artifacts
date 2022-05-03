@@ -1,12 +1,25 @@
 body {
     background-color: black;
+    height: 100vh;
+    margin: 0px;
+    background-image: url("images/homepage/weirdcore_sun.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.pageContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    height: 100vh;
-    margin: 0px;
-    background-image: url("images/weirdcore_sun.jpg");
+    justify-content: center;
+    height: 100%;
+    width: 60vw;
+}
+
+.homeContainer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainContainer {
@@ -14,26 +27,34 @@ body {
     flex-direction: row;
 }
 
+
 .leftEyes {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
 }
 
-.rightEyes {
-    flex-direction: column;
-    display: flex;
-}
-
-.mainText h1 {
-    font-weight: 900;
-}
 .mainText {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 300px;
+    gap: 25px;
+    flex: 1 1 auto;
+    margin: 15px 0px;
 }
 
-.shrink {
-    transform: scale(50%);
+.rightEyes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bottomEyeContainer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
