@@ -2,7 +2,7 @@ body {
     background-color: black;
     height: 100vh;
     margin: 0px;
-    background-image: url("images/homepage/weirdcore_sun.jpg");
+    background-image: url("images/homepage/weirdcore.jpg");
     display: flex;
     justify-content: center;
 }
@@ -33,6 +33,10 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+}
+
+.ballpitContainer {
+    align-self: right;
 }
 
 .mainText {

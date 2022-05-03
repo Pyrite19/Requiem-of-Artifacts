@@ -9,12 +9,12 @@ let dilated = false;
 eyesArray = new Array(home, ballpit, bedroom, chapel, sunset, isolation).forEach(eye => {
   eye.addEventListener("mouseover", (e) => {
     dilated = true
-    eye.src = eye.src.replace("blink", "dilated")
-    eye.src = eye.src.replace("eye", "dilated")
+    eye.src = eye.src.replace("Blink", "Dilated")
+    eye.src = eye.src.replace("Eye", "Dilated")
   });
   eye.addEventListener("mouseout", (e) => {
     dilated = false
-    eye.src = eye.src.replace("dilated", "eye")
+    eye.src = eye.src.replace("Dilated", "Eye")
   });
   timedBlink(eye)
 });
@@ -29,7 +29,7 @@ eyesArray = new Array(home, ballpit, bedroom, chapel, sunset, isolation).forEach
 
 function timedBlink(eye) {
   if (!dilated) {
-    eye.src = eye.src.replace("blink", "eye")
+    eye.src = eye.src.replace("Blink", "Eye")
     setTimeout(() => {
       blink(eye)
     }, (Math.random() * 20000))
@@ -38,7 +38,7 @@ function timedBlink(eye) {
 
 function blink(eye) {
   if (!dilated) {
-    eye.src = eye.src.replace("eye", "blink")
+    eye.src = eye.src.replace("Eye", "Blink")
     setTimeout(() => {
       timedBlink(eye)
     }, (Math.random() * 500))
