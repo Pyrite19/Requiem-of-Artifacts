@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .mainContainer {
@@ -34,15 +35,18 @@ body {
     justify-content: center;
     gap: 75px;
     min-width: 100px;
+    flex: 1 2 0px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .mainText {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 25px;
     margin: 50px 0px;
+    flex: 1 1 300px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .rightEyes {
@@ -51,10 +55,13 @@ body {
     justify-content: center;
     gap: 75px;
     min-width: 100px;
+    flex: 1 2 0px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .bottomEyeContainer a {
     display: flex;
     align-items: center;
     justify-content: center;
+    image-rendering: -webkit-optimize-contrast;
 }

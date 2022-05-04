@@ -22,6 +22,7 @@ body {
     max-height: 20vh;
     width: auto;
     height: 100%;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .eyeContainer a img {
