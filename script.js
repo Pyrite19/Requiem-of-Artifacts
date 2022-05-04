@@ -24,7 +24,7 @@ function timedBlink(eye) {
     eye.src = eye.src.replace("Blink", "Eye")
     setTimeout(() => {
       blink(eye)
-    }, (Math.random() * 20000))
+    }, (Math.random() * 15000))
   }
 };
 
